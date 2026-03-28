@@ -8,7 +8,7 @@ class Solution {
             if (map.get(key) == 1) {
                 return key;
             }
-        }
+        } 
 
         return -1; 
     }
