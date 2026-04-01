@@ -20,7 +20,7 @@ class Solution {
                     result = result+val;
                 }
             }else{
-                result = result+val;
+                result = result+val; 
             }
         }
         return result;
