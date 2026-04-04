@@ -10,7 +10,7 @@ class Solution {
                     row.add(result.get(i - 1).get(j - 1) + result.get(i - 1).get(j));
                 }
             }
-
+ 
             result.add(row);
         }
         return result;
