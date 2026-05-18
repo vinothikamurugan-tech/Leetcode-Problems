@@ -8,7 +8,7 @@ class Solution {
         for(int i = 0; i < values.length; i++) {
             while(num >= values[i]) {
                 num -= values[i];
-                sb.append(symbols[i]);
+                sb.append(symbols[i]); 
             }
         }
         return sb.toString();
