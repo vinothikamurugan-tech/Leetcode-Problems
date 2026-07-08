@@ -7,7 +7,7 @@ class Solution {
             countRight.put(num, countRight.getOrDefault(num, 0) + 1);
         }
         Map<Integer, Integer> countLeft = new HashMap<>();
-
+ 
         long ans = 0;
 
         for (int j = 0; j < n; j++) {
