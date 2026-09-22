@@ -8,7 +8,7 @@ class Solution {
                     row.add(1);
                 } else {
                     row.add(result.get(i - 1).get(j - 1) + result.get(i - 1).get(j));
-                }
+                } 
             }
  
             result.add(row);
