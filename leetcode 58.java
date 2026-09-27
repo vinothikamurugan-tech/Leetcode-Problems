@@ -7,7 +7,7 @@ class Solution {
         i--;
        }
        while(i>=0 && s.charAt(i)!= ' '){
-           count = count +1;
+           count = count +1; 
            i--;
        } 
        return count;
