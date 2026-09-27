@@ -3,7 +3,6 @@ class Solution {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
         }
-
         boolean negative = (dividend < 0) ^ (divisor < 0);
 
         long dvd = Math.abs((long) dividend);
