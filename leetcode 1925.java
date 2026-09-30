@@ -7,7 +7,7 @@ class Solution {
                     if(i*i + j*j == k*k){
                         count++;
                     }
-                }
+                }   
             }
         }
         return count;
