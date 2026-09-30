@@ -4,7 +4,7 @@ class Solution {
         if (nums.length == 0) return result;
 
         int start = nums[0];
-
+  
         for (int i = 1; i <= nums.length; i++) {
             if (i == nums.length || nums[i] != nums[i - 1] + 1) {
                 if (start == nums[i - 1]) {
